@@ -8,7 +8,8 @@
 background-image: url('../images/flower.jpg') ;
 background-size: cover;
 background-position: center;
-height: 90vh;
+height: 100vh;
+clip-path: polygon(0 0, 100% 1%, 100% 78%, 45% 100%, 47% 100%, 0 75%);
 }
 .flower h1{
     color: navy;
@@ -23,7 +24,8 @@ height: 90vh;
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
-    background-color: pink;
+    background-color: blueviolet;
+    background: linear-gradient(180deg, pink,aqua);
     border-style: solid;
     border-width: 15px;
     border-color: navy;
